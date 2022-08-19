@@ -1,4 +1,5 @@
 import React from "react";
+
 import FlatLocationItem from "./FlatLocationItem";
 
 export default function FlatLocation() {
