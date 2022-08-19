@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.headerTitle {
+  display: flex;
+  align-items: center;
+}
+.headerButtons {
+  display: flex;
+  align-items: center;
+}
+
+.notifications {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  padding: 5px 5px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+.avatar {
+  margin: 0 2px;
+  border-radius: 50%;
+  line-height: 30px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  color: white;
+  background-color: #bf292f;
+}
+
+.residenceName {
+  font-size: 15px;
+  text-decoration: underline;
+}
+.flatName {
+  font-size: 12px;
+  color: #7e8185;
+}
+
+@media only screen and (min-width: 481px) {
+  .residenceName {
+    font-size: 20px;
+  }
+  .flatName {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .residenceName {
+    font-size: 20px;
+  }
+  .flatName {
+    font-size: 15px;
+  }
+  .avatar {
+    margin: 0 5px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .residenceName {
+    font-size: 20px;
+  }
+  .flatName {
+    font-size: 15px;
+  }
+}

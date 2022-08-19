@@ -1,0 +1,64 @@
+.mainPanel .panelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+}
+
+p {
+  margin: 0;
+}
+
+p.info {
+  font-size: 15px;
+  color: grey;
+}
+
+p.value {
+  color: black;
+}
+
+.flatLocation {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 18px 0;
+}
+
+.flatLocation p.value {
+  margin-left: 15px;
+}
+
+.infoValueBlock {
+  text-align: center;
+  padding: 15px 5px;
+}
+
+.moreInfo .property {
+  justify-content: center;
+}
+
+.moreInfo .infoValueBlock {
+  text-align: center;
+  padding: 15px 5px;
+}
+
+.infoValueBlock p.value {
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .infoValueBlock {
+    text-align: start;
+    padding: 15px 40px;
+  }
+
+  .moreInfo .property {
+    justify-content: start;
+  }
+
+  .moreInfo .infoValueBlock {
+    text-align: start;
+    padding: 15px 5px;
+  }
+  
+}
